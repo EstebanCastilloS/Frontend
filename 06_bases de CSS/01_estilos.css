@@ -1,0 +1,17 @@
+p{
+    color: midnightblue;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.hijos-directos >li{
+    color: black;
+    background: green;
+}
+
+.hijos-descendientes li{
+    color: black;
+    background: red;
+}
