@@ -1,0 +1,50 @@
+li{
+    color: red;
+}
+
+.faltante {
+    color: blue;
+}
+
+header a {
+    color: green;
+}
+
+header > a {
+    color:blueviolet;
+}
+
+h1,h2{
+    color:brown;
+}
+
+h1 + h2{
+    color:cadetblue;
+}
+
+input[placeholder]{
+    border: 2px solid red;
+}
+
+input[placeholder="Escribe tu Nombre"]{
+    border: 2px solid green;
+}
+
+input[type="submit"]{
+    border: 2px solid blueviolet;
+}
+
+.art1_title{
+    color:yellowgreen;
+    
+}
+
+.art2_title{
+    color: rgb(86, 99, 11);
+}
+
+.art_1 .art1_sub3, .art_2 .art2_sub3{
+    color: blue;
+}
+
+
