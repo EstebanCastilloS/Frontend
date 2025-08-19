@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+</head>
+<body>
+    
+    <h1>Enlaces en HTML</h1>
+    <p>Los enlaces son fundamentales para la navegación en la web. Se crean utilizando la etiqueta `<a>`.</p>
+    <p>Un enlace básico se ve así:</p>
+    <pre><code>&lt;a href="https://www.ejemplo.com"&gt;Visita Ejemplo&lt;/a&gt;</code></pre>
+    <p>Esto creará un enlace que, al hacer clic, llevará al usuario a "https://www.ejemplo.com".</p>
+    <h2>Enlaces a otras páginas</h2>
+    <p>Para enlazar a otra página dentro del mismo sitio, puedes usar una ruta relativa:</p>
+    <pre><code>&lt;a href="pagina2.html"&gt;Ir a Página 2&lt;/a&gt;</code></pre>
+    <h2>Enlaces a archivos</h2>
+    <p>También puedes enlazar a archivos, como documentos PDF o imágenes:</p>
+    <pre><code>&lt;a href="documento.pdf"&gt;Descargar Documento PDF&lt;/a&gt;</code></pre>
+    <h2>Enlaces con atributos adicionales</h2>
+    <p>Los enlaces pueden tener atributos adicionales, como `target` para especificar dónde abrir el enlace:</p>
+    <pre><code>&lt;a href="https://www.ejemplo.com" target="_blank"&gt;Abrir en nueva pestaña&lt;/a&gt;</code></pre>
+    <p>El atributo `target="_blank"` abrirá el enlace en una nueva pestaña del navegador.</p>
+    <h2>Enlaces con anclas</h2>
+    <p>Para crear enlaces que lleven a una sección específica de la misma página, puedes usar anclas:</p>
+    <pre><code>&lt;a href="#seccion1"&gt;Ir a Sección 1&lt;/a&gt;</code></pre>
+    <p>Y luego definir la sección con un `id`:</p>
+    <pre><code>&lt;h2 id="seccion1"&gt;Sección 1&lt;/h2&gt;</code></pre>
+    <h2>Enlaces con estilos</h2>
+    <p>Puedes aplicar estilos a los enlaces utilizando CSS. Por ejemplo, para cambiar el color de un enlace al pasar el cursor:</p>
+    <pre><code>/* CSS */
+    a:hover {
+        color: red;
+    }</code></pre>
+        <p>Esto cambiará el color del enlace a rojo cuando el usuario pase el cursor sobre él.</p>
+        
+        <h2>Ejemplo completo</h2>
+        <p>A continuación, un ejemplo completo de un documento HTML con varios tipos de enlaces:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;    
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title>Ejemplo de Enlaces&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Ejemplo de Enlaces&lt;/h1&gt;
+        &lt;a href="https://www.ejemplo.com"&gt;Visita Ejemplo&lt;/a&gt;&lt;br&gt;
+        &lt;a href="pagina2.html"&gt;Ir a Página 2&lt;/a&gt;&lt;br&gt;
+        &lt;a href="documento.pdf"&gt;Descargar Documento PDF&lt;/a&gt;&lt;br&gt;
+        &lt;a href="https://www.ejemplo.com" target="_blank"&gt;Abrir en nueva pestaña&lt;/a&gt;&lt;br&gt;
+        &lt;a href="#seccion1"&gt;Ir a Sección 1&lt;/a&gt;&lt;br&gt;
+        
+        &lt;h2 id="seccion1"&gt;Sección 1&lt;/h2&gt;
+        &lt;p&gt;Contenido de la sección 1.&lt;/p&gt;
+        &lt;style&gt;
+            a:hover {
+                color: red;
+            }
+        &lt;/style&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</code></pre>
+        <p>Este ejemplo muestra cómo crear enlaces a diferentes tipos de recursos y cómo aplicar estilos básicos.</p>
+        <p>Recuerda que los enlaces son una parte esencial de la navegación web, y
+es importante usarlos de manera efectiva para mejorar la experiencia del usuario.</p>
+        <p>¡Practica creando tus propios enlaces y experimenta con diferentes atributos y estilos!</p>
+        <p>Para más información, consulta la <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">documentación de MDN sobre enlaces</a>.</p>
+        <p>¡Feliz aprendizaje!</p>
+</body>
+</html>
